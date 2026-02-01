@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Research | Paul Davidson</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="name">Dr. Paul Davidson</div>
+        <div class="tag">Digital Process Twins for Advanced Manufacturing</div>
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a class="active" href="research.html">Research</a>
+        <a href="vision.html">Vision</a>
+        <a href="publications.html">Publications</a>
+        <a href="students.html">Students</a>
+        <a href="talks.html">Talks</a>
+        <a href="service.html">Service</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Research</h1>
+    <p class="page-intro">
+      My group develops digital process twins that connect manufacturing physics, sensing, and inference to predict
+      defect states and structural performance. The emphasis is on validation, uncertainty, and decision-relevance.
+    </p>
+
+    <div class="grid-2">
+      <div class="card">
+        <p class="kicker">Theme A</p>
+        <h2 class="section-title">Digital Process Twins</h2>
+        <ul class="list">
+          <li>Multi-physics models → quality and performance predictions</li>
+          <li>In situ diagnostics and parameter identification</li>
+          <li>Uncertainty quantification for digital certification</li>
+        </ul>
+        <p class="small"><a href="vision.html">How it fits the 10-year vision →</a></p>
+      </div>
+
+      <div class="card">
+        <p class="kicker">Theme B</p>
+        <h2 class="section-title">AI-Enabled NDI &amp; Interpretation</h2>
+        <ul class="list">
+          <li>Sparse sensing and physics-informed inference</li>
+          <li>Segmentation, detection, and laminate-level state estimation</li>
+          <li>Linking inspection to structural decisions</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hr"></div>
+
+    <div class="card" id="afp">
+      <p class="kicker">Theme C</p>
+      <h2 class="section-title">Thermoplastic Automated Fiber Placement (AFP)</h2>
+      <div class="split">
+        <div>
+          <p class="small"><strong>Problem:</strong> quality and performance depend on fast, coupled thermo-mechanical interactions during layup.</p>
+          <ul class="list">
+            <li>Radiative heating and optical/thermal calibration</li>
+            <li>Tow motion, compaction, and tool interaction</li>
+            <li>Defect formation and consolidation physics</li>
+          </ul>
+        </div>
+        <div>
+          <p class="small"><strong>Outputs:</strong> predictive models validated with sensing and translated into structural consequences.</p>
+          <ul class="list">
+            <li>Process window maps</li>
+            <li>Defect-aware structural performance prediction</li>
+            <li>Closed-loop control concepts</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="lpbf" style="margin-top:14px">
+      <p class="kicker">Theme D</p>
+      <h2 class="section-title">Laser Powder Bed Fusion (LPBF)</h2>
+      <div class="split">
+        <div>
+          <p class="small"><strong>Problem:</strong> microstructure and defects emerge from thermal histories and melt pool dynamics.</p>
+          <ul class="list">
+            <li>Thermal modeling + calibration</li>
+            <li>Process monitoring and feature extraction</li>
+            <li>Structure–property inference</li>
+          </ul>
+        </div>
+        <div>
+          <p class="small"><strong>Goal:</strong> decision-relevant prediction of performance and pathways to digital certification.</p>
+          <ul class="list">
+            <li>Process → microstructure → properties</li>
+            <li>UQ for robust decision-making</li>
+            <li>Integration with inspection</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="y"></span> Paul Davidson · <a href="contact.html">Contact</a> · Last updated: Feb 2026
+    </div>
+  </footer>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
